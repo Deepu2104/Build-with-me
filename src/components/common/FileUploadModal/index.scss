@@ -1,0 +1,22 @@
+.image-upload-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 55px;
+  height: auto;
+
+  label{
+    border: 1px solid black;
+    padding: 11px;
+    cursor: pointer;
+    font-family: system-ui;
+  }
+  .image-name{
+    font-size: 14px;
+    font-family: system-ui; 
+  }
+  .progress-bar{
+    padding: 10px;
+  }
+}

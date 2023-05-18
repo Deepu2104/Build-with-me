@@ -1,0 +1,15 @@
+ .loader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  gap: 15px;
+ }
+
+ p{
+  font-family: system-ui;
+  font-weight: 500;
+  color : black;
+  font-size: 30px;
+ }
