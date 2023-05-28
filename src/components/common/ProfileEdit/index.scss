@@ -1,0 +1,41 @@
+$linkedinBlue1: #0072b1;
+$linkedinBlue2: #0073b1;
+$linkedinBlue3: #004c75;
+
+.profile-edit-inputs{
+  display: grid;
+  margin-top: 45px;
+  gap: 20px;
+  label{
+    font-family: system-ui;
+    margin-bottom: -15px;
+  }
+  
+}
+
+.save-btn{
+  width: 300px;
+  height: 50px;
+  cursor: pointer;
+  background-color: $linkedinBlue2;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  font-family: system-ui;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 18px;
+  margin: 20px; 
+}
+
+.save-btn-container{
+  display: flex;
+  justify-content: center;
+}
+
+.close-icon{
+  cursor: pointer;
+}
+.skill-label{
+  font-weight: 600;
+}

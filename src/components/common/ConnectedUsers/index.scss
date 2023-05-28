@@ -1,0 +1,19 @@
+.button-profile{
+  color: black;
+  font-size: 10px;
+    padding: 8px 16px;
+    border: none;
+    background-color: #025b24;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 10px;
+    width : 80%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+    &:hover {
+      background-color: #002d5a;
+    }
+}

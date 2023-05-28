@@ -1,0 +1,97 @@
+.posts-card {
+  width: calc(80vw - 20px);
+  min-height: auto;
+  background-color: whitesmoke;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding-bottom: 25px;
+  position: relative;
+
+  .post-image-wrapper {
+    display: flex;
+    padding: 14px;
+    gap: 10px;
+  }
+
+  .post-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: contain;
+  }
+
+  .name {
+    font-family: system-ui;
+    margin: 0 0 0 10px;
+    font-size: 19px;
+    text-decoration: underline;
+    color: rgb(40, 40, 124);
+    cursor: pointer;
+  }
+
+  .timestamp {
+    font-family: system-ui;
+    font-size: 10px;
+    color: black;
+    font-weight: 450;
+    margin: 0 0 0 10px;
+  }
+
+  .status {
+    text-align: left;
+    margin: 10px 0 0 10px;
+    font-family: system-ui, sans-serif;
+    font-size: 19px;
+    font-weight: 450;
+    color: black;
+  }
+
+  position: relative;
+
+  .action-container {
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+    display: flex;
+    top: 10px;
+
+    .action-icon {
+      color: #474747;
+      padding: 10px;
+    }
+
+    .action-icon:hover {
+      color: #000000;
+      background-color: #b7b7b7;
+      padding: 10px;
+      border-radius: 50%;
+    }
+  }
+
+  // Responsive styles
+  @media (max-width: 768px) {
+    width: calc(90vw - 20px);
+  }
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    width: calc(85vw - 20px);
+  }
+}
+.go-back-button {
+  background-color: #ff4b5c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+}

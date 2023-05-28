@@ -1,0 +1,76 @@
+.coding-room-container {
+  text-align: center;
+  margin-top: 50px;
+
+  .timer {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .button-container {
+    margin-bottom: 20px;
+
+    button {
+      margin-right: 10px;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      border-radius: 4px;
+    }
+
+    .start-button {
+      background-color: #4caf50;
+      color: white;
+    }
+
+    .stop-button {
+      background-color: #f44336;
+      color: white;
+    }
+
+    .reset-button {
+      background-color: #2196f3;
+      color: white;
+    }
+
+    .active {
+      background-color: #ff9800;
+    }
+  }
+
+  .problem-container {
+    .random-problem-button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #2196f3;
+      color: white;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      border-radius: 4px;
+      margin-bottom: 20px;
+
+      &:hover {
+        background-color: #1976d2;
+      }
+    }
+
+    .random-problem-link {
+      margin-top: 10px;
+
+      a {
+        font-size: 16px;
+        color: #2196f3;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
